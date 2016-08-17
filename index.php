@@ -4,6 +4,7 @@
 <?php get_template_part( 'entry' ); ?>
 <?php comments_template(); ?>
 <?php endwhile; endif; ?>
+
 <?php get_template_part( 'nav', 'below' ); ?>
 </section>
 <?php get_sidebar(); ?>
