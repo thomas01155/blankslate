@@ -1,4 +1,5 @@
 <?php
+require_once('wp_bootstrap_navwalker.php');
 add_action('after_setup_theme', 'blankslate_setup');
 function blankslate_setup()
 {
@@ -16,7 +17,7 @@ function blankslate_setup()
 add_action('wp_enqueue_scripts', 'blankslate_load_scripts');
 function blankslate_load_scripts()
 {
-    wp_enqueue_script('jquery');
+    wp_enqueue_script( 'bundle', 'js/bundle.js', false );
 }
 
 add_action('comment_form_before', 'blankslate_enqueue_comment_reply_script');
