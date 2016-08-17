@@ -8,7 +8,7 @@
     "build:css": "node-sass scss/main.scss > css/main.css && npm run build:postcss",
     "build:postcss": "postcss --use autoprefixer css/main.css -o css/main.css",
     "build:cssclean": "cleancss -o css/main.css css/main.css",
-    "build": "npm run build:css && npm run build:cssclean && npm run build:js && npm run build:image && npm run build:font"
+    "build": "npm run build:css && npm run build:cssclean && npm run build:js"
   },
   "author": "",
   "license": "ISC",
