@@ -10,6 +10,9 @@ Building css only:
 Building js only:
 - npm run build:js
 
+
+----------------------------------------------------
+
 IMPORTANT - PLEASE READ: http://tidythemes.com/concept/
 
 YOU MAY DELETE THIS FILE AND ANY OTHER FILE(S) BEFORE STARTING YOUR PROJECT
